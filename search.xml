@@ -229,31 +229,6 @@
     
     
     <entry>
-      <title>npm 的一个小细节</title>
-      <link href="/2022/10/30/npm-two/"/>
-      <url>/2022/10/30/npm-two/</url>
-      
-        <content type="html"><![CDATA[<p>在使用 electron 构建桌面应用的时候，在 package.json 里面的 scripts 字段是这样的</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">  &quot;start&quot;: &quot;electron .&quot;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure><p>我们可以执行 npm start ，那么它就会执行 <code>electron .</code> 这个命令。<br>那么如果我们直接执行 <code>electron .</code><br>由于我们没有将 electron 加入到全局，所以不行。<br>那么为什么 npm start 可以执行呢？</p><span id="more"></span><p>这就涉及到 npm run 命令的一个小细节了。<br>npm run xxx 可以执行 package.json 里面 scripts 里面对应的命令，并且是 shell 脚本。但是在执行的时候有一个小处理：</p><p><strong>npm run 新建的这个 shell ，会将当前目录的 node_modules&#x2F;.bin 子目录加入 PATH 变量，执行结束后，再将 PATH 变量恢复原样。</strong></p><p>这就解释了，没有安装全局的 electron ，直接运行 <code>electron .</code> 是不行的，但是使用 <code>npm start</code> 来运行 <code>electron .</code> 可以。</p><p><strong>下面介绍一个使用 npm 的实践：</strong><br>很多朋友使用 hexo 来构建博客；hexo 是基于 Node.js 产物，用它发表博文，很是方便；你只需 hexo clean, hexo g, hexo d三个命令即可；而且每一个命令必须等待前一个命令运行完成。文章数据一多，一套命令打下来，也得 20s+；如果略懂 npm，在 package.js 中加入点命名，例如像这样；</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">  <span class="string">&quot;start&quot;</span>: <span class="string">&quot;sudo hexo clean &amp;&amp; sudo hexo g &amp;&amp; sudo gulp &amp;&amp; sudo hexo d&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>那么 只需运行 npm start 就好，可将时间消耗缩短至 2s节省时间虽说不多，却也是数量级的提升，而且代价只是那么小，并一劳永逸。所以有必要对此。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> npm </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Git学习总结</title>
       <link href="/2022/10/30/git/"/>
       <url>/2022/10/30/git/</url>
@@ -271,6 +246,31 @@
         <tags>
             
             <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>npm 的一个小细节</title>
+      <link href="/2022/10/30/npm-two/"/>
+      <url>/2022/10/30/npm-two/</url>
+      
+        <content type="html"><![CDATA[<p>在使用 electron 构建桌面应用的时候，在 package.json 里面的 scripts 字段是这样的</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">  &quot;start&quot;: &quot;electron .&quot;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure><p>我们可以执行 npm start ，那么它就会执行 <code>electron .</code> 这个命令。<br>那么如果我们直接执行 <code>electron .</code><br>由于我们没有将 electron 加入到全局，所以不行。<br>那么为什么 npm start 可以执行呢？</p><span id="more"></span><p>这就涉及到 npm run 命令的一个小细节了。<br>npm run xxx 可以执行 package.json 里面 scripts 里面对应的命令，并且是 shell 脚本。但是在执行的时候有一个小处理：</p><p><strong>npm run 新建的这个 shell ，会将当前目录的 node_modules&#x2F;.bin 子目录加入 PATH 变量，执行结束后，再将 PATH 变量恢复原样。</strong></p><p>这就解释了，没有安装全局的 electron ，直接运行 <code>electron .</code> 是不行的，但是使用 <code>npm start</code> 来运行 <code>electron .</code> 可以。</p><p><strong>下面介绍一个使用 npm 的实践：</strong><br>很多朋友使用 hexo 来构建博客；hexo 是基于 Node.js 产物，用它发表博文，很是方便；你只需 hexo clean, hexo g, hexo d三个命令即可；而且每一个命令必须等待前一个命令运行完成。文章数据一多，一套命令打下来，也得 20s+；如果略懂 npm，在 package.js 中加入点命名，例如像这样；</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">  <span class="string">&quot;start&quot;</span>: <span class="string">&quot;sudo hexo clean &amp;&amp; sudo hexo g &amp;&amp; sudo gulp &amp;&amp; sudo hexo d&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>那么 只需运行 npm start 就好，可将时间消耗缩短至 2s节省时间虽说不多，却也是数量级的提升，而且代价只是那么小，并一劳永逸。所以有必要对此。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
             
         </tags>
       
