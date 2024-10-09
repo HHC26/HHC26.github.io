@@ -317,42 +317,17 @@
     <url>/pages/523a7d1.html</url>
     <content><![CDATA[<h2 id="It-It-supported-by-firmware-which-the-version-later-than-20240501"><a href="#It-It-supported-by-firmware-which-the-version-later-than-20240501" class="headerlink" title="It It supported by firmware which the version later than 20240501"></a>It It supported by firmware which the version later than 20240501</h2><span id="more"></span>
 
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="http://39.104.23.228/" frameborder="1" scrolling="yes" width="320" height="240"></iframe>
-</div>]]></content>
+<h3 id="More-Help"><a href="#More-Help" class="headerlink" title="More Help"></a>More Help</h3><ul>
+<li>Operation Guide<div style="position: relative; padding: 30% 45%;">
+  <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="http://39.104.23.228/" frameborder="1" scrolling="yes" width="320" height="240"></iframe>
+</div></li>
+</ul>
+]]></content>
       <categories>
         <category>Api</category>
       </categories>
       <tags>
         <tag>Api</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Whatsminer-M2x-all-20220919</title>
-    <url>/pages/523a7d3.html</url>
-    <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
-<li>Applicable models: M21S, M20S, M21 .etc;</li>
-<li>High mode can not be supported;</li>
-<li>Fixing other bugs;</li>
-<li>Support Pool TLS safety transportation protocol;</li>
-<li>The WhatsMiner API version is V2.0.5;</li>
-<li>If the miner firmware is before 2021, it is recommended to upgrade the firmware after SD-card flashing;</li>
-<li>Strengthen the safety of firmware: device will reboot 2 times during upgrading,the version name will be end with”NeedUpgradeAgain” at 1st time，please wait for 2nd reboot, after that it will be changed to target version;</li>
-</ul>
-<span id="more"></span>
-
-<h3 id="Upgrade-method"><a href="#Upgrade-method" class="headerlink" title="Upgrade method"></a>Upgrade method</h3><ul>
-<li>Use WhatsMinerTool or WhatsMiner API to upgrade;</li>
-<li>Teaching video: <a href="https://youtu.be/L-gpDzD9YCU">https://youtu.be/L-gpDzD9YCU</a></li>
-</ul>
-<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/Whatsminer-M2x-all-20220919.15.bin">Whatsminer-M2x-all-20220919.15.bin</a></p>
-]]></content>
-      <categories>
-        <category>Firmwares</category>
-      </categories>
-      <tags>
-        <tag>Firmwares</tag>
-        <tag>M2x</tag>
       </tags>
   </entry>
   <entry>
@@ -1145,6 +1120,86 @@
       </tags>
   </entry>
   <entry>
+    <title>AirToLiquidTool</title>
+    <url>/pages/cedcd166.html</url>
+    <content><![CDATA[<h2 id="Only-used-to-the-air-to-immersion-cooling-miner-firmware-upgrades"><a href="#Only-used-to-the-air-to-immersion-cooling-miner-firmware-upgrades" class="headerlink" title="Only used to the air to immersion cooling miner firmware upgrades"></a>Only used to the air to immersion cooling miner firmware upgrades</h2><ul>
+<li>Note: Upgraded the miners using this tool will result in the miners losing its warranty period.</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><ul>
+<li>This tool requires an internet connection to link the server to automatically download firmware.</li>
+<li>Upgrading the miner, power, or switching power fan operation will result in the an expiry of the miner and all accessories warranty.</li>
+<li>Upgrade liquid cooling firmware steps: UpgradeMiner &gt;&gt;&gt;ToLiquidCool&gt;&gt;&gt; UpgradePower &gt;&gt;&gt; ClosePowerFan.</li>
+</ul>
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
+<li><a href="http://47.253.93.0:8880/WhatsPowerTool/AirToLiquid-1.5.4.exe">AirToLiquid v1.5.4</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WhatsMinerTool</title>
+    <url>/pages/cedcd106.html</url>
+    <content><![CDATA[<h2 id="Official-tools-for-WhatsMiner"><a href="#Official-tools-for-WhatsMiner" class="headerlink" title="Official tools for WhatsMiner"></a>Official tools for WhatsMiner</h2><ul>
+<li>Suitable for all WhatsMiner;</li>
+<li>The new WhatsMiner must need this tool to monitor and upgrading firmware；</li>
+<li>Support to import and export *.txt file with IP segment;</li>
+<li>Support exporting logs and timed exporting of operational data;</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
+<li><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1715830645467WhatsMinerTool-9.0.3.rar">WhatsMinerTool v9.0.3.rar</a></li>
+</ul>
+<h3 id="More-Help"><a href="#More-Help" class="headerlink" title="More Help"></a>More Help</h3><ul>
+<li>Teaching video: <a href="https://www.youtube.com/watch?v=LfdASoCgVCU">https://www.youtube.com/watch?v=LfdASoCgVCU</a></li>
+<li>Operation Guide<div style="position: relative; padding: 30% 45%;">
+  <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1725346251374WhatsMinerTool%20Operating%20GuideV9.0.3.pdf" frameborder="1" scrolling="yes" width="320" height="240"></iframe>
+</div></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Whatsminer-M2x-all-20220919</title>
+    <url>/pages/523a7d3.html</url>
+    <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
+<li>Applicable models: M21S, M20S, M21 .etc;</li>
+<li>High mode can not be supported;</li>
+<li>Fixing other bugs;</li>
+<li>Support Pool TLS safety transportation protocol;</li>
+<li>The WhatsMiner API version is V2.0.5;</li>
+<li>If the miner firmware is before 2021, it is recommended to upgrade the firmware after SD-card flashing;</li>
+<li>Strengthen the safety of firmware: device will reboot 2 times during upgrading,the version name will be end with”NeedUpgradeAgain” at 1st time，please wait for 2nd reboot, after that it will be changed to target version;</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="Upgrade-method"><a href="#Upgrade-method" class="headerlink" title="Upgrade method"></a>Upgrade method</h3><ul>
+<li>Use WhatsMinerTool or WhatsMiner API to upgrade;</li>
+<li>Teaching video: <a href="https://youtu.be/L-gpDzD9YCU">https://youtu.be/L-gpDzD9YCU</a></li>
+</ul>
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/Whatsminer-M2x-all-20220919.15.bin">Whatsminer-M2x-all-20220919.15.bin</a></p>
+]]></content>
+      <categories>
+        <category>Firmwares</category>
+      </categories>
+      <tags>
+        <tag>Firmwares</tag>
+        <tag>M2x</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Whatsminer-M6X&amp;M5X&amp;M3X-All-2024329</title>
     <url>/pages/523a7d6.html</url>
     <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
@@ -1204,58 +1259,6 @@
         <tag>M3x</tag>
         <tag>M5x</tag>
         <tag>M6x</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AirToLiquidTool</title>
-    <url>/pages/cedcd166.html</url>
-    <content><![CDATA[<h2 id="Only-used-to-the-air-to-immersion-cooling-miner-firmware-upgrades"><a href="#Only-used-to-the-air-to-immersion-cooling-miner-firmware-upgrades" class="headerlink" title="Only used to the air to immersion cooling miner firmware upgrades"></a>Only used to the air to immersion cooling miner firmware upgrades</h2><ul>
-<li>Note: Upgraded the miners using this tool will result in the miners losing its warranty period.</li>
-</ul>
-<span id="more"></span>
-
-<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><ul>
-<li>This tool requires an internet connection to link the server to automatically download firmware.</li>
-<li>Upgrading the miner, power, or switching power fan operation will result in the an expiry of the miner and all accessories warranty.</li>
-<li>Upgrade liquid cooling firmware steps: UpgradeMiner &gt;&gt;&gt;ToLiquidCool&gt;&gt;&gt; UpgradePower &gt;&gt;&gt; ClosePowerFan.</li>
-</ul>
-<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
-<li><a href="http://47.253.93.0:8880/WhatsPowerTool/AirToLiquid-1.5.4.exe">AirToLiquid v1.5.4</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tools</category>
-      </categories>
-      <tags>
-        <tag>Tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WhatsMinerTool</title>
-    <url>/pages/cedcd106.html</url>
-    <content><![CDATA[<h2 id="Official-tools-for-WhatsMiner"><a href="#Official-tools-for-WhatsMiner" class="headerlink" title="Official tools for WhatsMiner"></a>Official tools for WhatsMiner</h2><ul>
-<li>Suitable for all WhatsMiner;</li>
-<li>The new WhatsMiner must need this tool to monitor and upgrading firmware；</li>
-<li>Support to import and export *.txt file with IP segment;</li>
-<li>Support exporting logs and timed exporting of operational data;</li>
-</ul>
-<span id="more"></span>
-
-<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
-<li><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1715830645467WhatsMinerTool-9.0.3.rar">WhatsMinerTool v9.0.3.rar</a></li>
-</ul>
-<h3 id="More-Help"><a href="#More-Help" class="headerlink" title="More Help"></a>More Help</h3><ul>
-<li>Teaching video: <a href="https://www.youtube.com/watch?v=LfdASoCgVCU">https://www.youtube.com/watch?v=LfdASoCgVCU</a></li>
-<li>Operation Guide<div style="position: relative; padding: 30% 45%;">
-  <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1725346251374WhatsMinerTool%20Operating%20GuideV9.0.3.pdf" frameborder="1" scrolling="yes" width="320" height="240"></iframe>
-</div></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tools</category>
-      </categories>
-      <tags>
-        <tag>Tools</tag>
       </tags>
   </entry>
 </search>
