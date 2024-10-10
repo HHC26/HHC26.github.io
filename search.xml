@@ -1155,37 +1155,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Whatsminer-M2x-all-20220919</title>
-    <url>/pages/523a7d3.html</url>
-    <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
-<li>Applicable models: M21S, M20S, M21 .etc;</li>
-<li>High mode can not be supported;</li>
-<li>Fixing other bugs;</li>
-<li>Support Pool TLS safety transportation protocol;</li>
-<li>The WhatsMiner API version is V2.0.5;</li>
-<li>If the miner firmware is before 2021, it is recommended to upgrade the firmware after SD-card flashing;</li>
-<li>Strengthen the safety of firmware: device will reboot 2 times during upgrading,the version name will be end with”NeedUpgradeAgain” at 1st time，please wait for 2nd reboot, after that it will be changed to target version;</li>
-</ul>
-<span id="more"></span>
-
-<h3 id="Upgrade-method"><a href="#Upgrade-method" class="headerlink" title="Upgrade method"></a>Upgrade method</h3><ul>
-<li>Use WhatsMinerTool or WhatsMiner API to upgrade;</li>
-<li>Teaching video
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="https://www.youtube.com/embed/L-gpDzD9YCU" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" ></iframe></div>
-</li>
-</ul>
-<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/Whatsminer-M2x-all-20220919.15.bin">Whatsminer-M2x-all-20220919.15.bin</a></p>
-]]></content>
-      <categories>
-        <category>Firmwares</category>
-      </categories>
-      <tags>
-        <tag>Firmwares</tag>
-        <tag>M2x</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Whatsminer-M6X&amp;M5X&amp;M3X-All-2024329</title>
     <url>/pages/523a7d6.html</url>
     <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
@@ -1219,16 +1188,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Whatsminer-M6X&amp;M5X&amp;M3X-H616-20240712</title>
-    <url>/pages/523a7d4.html</url>
+    <title>Whatsminer-M2x-all-20220919</title>
+    <url>/pages/523a7d3.html</url>
     <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
-<li>Applicable models: M6x series&#x2F; M5x series&#x2F; M3x series etc.；</li>
-<li>Only support for H616 (CB6) type;</li>
-<li>Supported Pool TLS safety transportation protocol;</li>
-<li>Supported to get miner SN by WhatsMiner API ;</li>
+<li>Applicable models: M21S, M20S, M21 .etc;</li>
+<li>High mode can not be supported;</li>
 <li>Fixing other bugs;</li>
-<li>Supported API v2 version and added V3 version;</li>
-<li>High mode can be only supported by M6X, M5x and M3x series, also require the input voltage over than 230VAT，some functions can be supported only with new firmware；</li>
+<li>Support Pool TLS safety transportation protocol;</li>
+<li>The WhatsMiner API version is V2.0.5;</li>
+<li>If the miner firmware is before 2021, it is recommended to upgrade the firmware after SD-card flashing;</li>
+<li>Strengthen the safety of firmware: device will reboot 2 times during upgrading,the version name will be end with”NeedUpgradeAgain” at 1st time，please wait for 2nd reboot, after that it will be changed to target version;</li>
 </ul>
 <span id="more"></span>
 
@@ -1239,18 +1208,14 @@
 <iframe src="https://www.youtube.com/embed/L-gpDzD9YCU" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" ></iframe></div>
 </li>
 </ul>
-<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
-<li><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1721983494226Whatsminer-M6X%26M5X%26M3X-H616-20240712.14.bin">Whatsminer-M6X&amp;M5X&amp;M3X-All-20240712.14.bin</a></li>
-</ul>
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><p><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/Whatsminer-M2x-all-20220919.15.bin">Whatsminer-M2x-all-20220919.15.bin</a></p>
 ]]></content>
       <categories>
         <category>Firmwares</category>
       </categories>
       <tags>
         <tag>Firmwares</tag>
-        <tag>M3x</tag>
-        <tag>M5x</tag>
-        <tag>M6x</tag>
+        <tag>M2x</tag>
       </tags>
   </entry>
   <entry>
@@ -1310,6 +1275,41 @@
       </categories>
       <tags>
         <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Whatsminer-M6X&amp;M5X&amp;M3X-H616-20240712</title>
+    <url>/pages/523a7d4.html</url>
+    <content><![CDATA[<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><h3 id="Release-Notes"><a href="#Release-Notes" class="headerlink" title="Release Notes"></a>Release Notes</h3><ul>
+<li>Applicable models: M6x series&#x2F; M5x series&#x2F; M3x series etc.；</li>
+<li>Only support for H616 (CB6) type;</li>
+<li>Supported Pool TLS safety transportation protocol;</li>
+<li>Supported to get miner SN by WhatsMiner API ;</li>
+<li>Fixing other bugs;</li>
+<li>Supported API v2 version and added V3 version;</li>
+<li>High mode can be only supported by M6X, M5x and M3x series, also require the input voltage over than 230VAT，some functions can be supported only with new firmware；</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="Upgrade-method"><a href="#Upgrade-method" class="headerlink" title="Upgrade method"></a>Upgrade method</h3><ul>
+<li>Use WhatsMinerTool or WhatsMiner API to upgrade;</li>
+<li>Teaching video
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="https://www.youtube.com/embed/L-gpDzD9YCU" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;" ></iframe></div>
+</li>
+</ul>
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
+<li><a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1721983494226Whatsminer-M6X%26M5X%26M3X-H616-20240712.14.bin">Whatsminer-M6X&amp;M5X&amp;M3X-All-20240712.14.bin</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Firmwares</category>
+      </categories>
+      <tags>
+        <tag>Firmwares</tag>
+        <tag>M3x</tag>
+        <tag>M5x</tag>
+        <tag>M6x</tag>
       </tags>
   </entry>
 </search>
