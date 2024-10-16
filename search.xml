@@ -354,8 +354,9 @@
 
 <h3 id="More-Help"><a href="#More-Help" class="headerlink" title="More Help"></a>More Help</h3><ul>
 <li>Operation Guides<div style="position: relative; padding: 30% 45%;">
-  <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://39.104.23.228/#api-Getting_Start" frameborder="1" scrolling="yes" width="320" height="240"></iframe>
+  <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://39.104.23.228/#api-History" frameborder="1" scrolling="yes" width="320" height="240"></iframe>
 </div></li>
+<li>Python Demo <a href="https://aws-microbt-com-bucket.s3.us-west-2.amazonaws.com/1729070366369python-whatsminer-api-3.0.0.zip">Download</a></li>
 </ul>
 ]]></content>
       <categories>
